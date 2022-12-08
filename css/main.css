@@ -1,0 +1,188 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    background: #eee;
+    background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+    min-height: 550px;
+    background-attachment: fixed;
+}
+
+
+
+.bg {
+    min-height: 540px;
+}
+
+.bg1 {
+
+    min-height: 750px;
+}
+
+@font-face {
+    font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+}
+
+.panel {
+    -webkit-box-shadow: 7px 6px 27px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 7px 6px 27px -11px rgba(66, 68, 90, 1);
+    box-shadow: 7px 6px 27px -11px rgba(66, 68, 90, 1);
+    border-color: #eee;
+    margin: 40px;
+    padding: 20px;
+    top: 80px;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title {
+    font-family: 'typo';
+}
+
+.header {
+    background: #333;
+    height: 70px;
+}
+
+.logo {
+    font-family: 'typo';
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 25px;
+}
+
+.title1 {
+    font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed;
+z-index: 1; */
+}
+
+
+.sub1 {
+    width: 90px;
+    background-color: #1cb4da;
+    font-size: 15px;
+    height: 35px;
+    margin: 20px;
+    padding: 7px;
+    width: 100px;
+}
+
+.sub1:hover {
+    color: #fff;
+}
+
+
+.sub {
+    appearance: none;
+    background-color: #1cb4da;
+    border: 2px solid #1cb4da;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+}
+
+.sub:disabled {
+    pointer-events: none;
+}
+
+.sub:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.sub:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+.footer a {
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+
+.footer a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.box {
+    padding: 9px;
+}
+
+hr {
+    color: #000000;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.log1 {
+    font: 15px 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.log {
+    margin: 10px;
+    margin-right: 60px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 15px;
+}
+
+.log:hover {
+    color: #ffffff;
+    border-bottom: 2px solid;
+    border-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
